@@ -1,0 +1,360 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    box-shadow: 1px 1px 30px rgb(0, 0, 0, 0.1);
+    position: sticky;
+    
+}
+.navbar-up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0px auto;
+    padding: 20px 0;
+
+}
+.imgup{
+    width: 1.5vw;
+}
+.search{
+    padding: 1.5vh 10vw;
+    border: 1px solid;
+    border-radius: 30px;
+    outline: none;
+    color: rgb(177, 177, 177);
+}
+.logo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 3vw
+}
+hr{
+    opacity: 0.3;
+}
+.navbar-down{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.navbar-down>a{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    text-decoration: none;
+}
+.navbar-down>a:hover{
+    color: #1A89DB;
+}
+
+.hrefp{
+    color: rgb(45, 44, 44);
+}
+.hrefp:hover{
+    color: #198ADA;
+}
+.hrefp::after{
+    color: #198ADA;
+}
+.navbar-down>div>p{
+    font-size: small;
+    opacity: 0.8;
+}
+.bar-right{
+    display: flex;
+    gap: 10px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 1vw
+}
+.signup{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.offer{
+    color: #1A89DB;
+}
+.showit{
+    display: flex;
+    justify-content: space-between;
+    background-color: #CAF2FF;
+
+}
+
+.showcase{
+    display: flex;
+    gap: 10px;
+    /* justify-content: space-between; */
+    width: 80%;
+    margin: 20px auto 50px auto;
+    
+
+}
+.box1{
+    padding: 20px 10px 20px 20px;
+    border-radius: 10px;
+}
+.box2{
+    background-color: #E4D6FB;
+    margin-top: 10px;
+    padding: 20px 10px 10px 20px;
+    border-radius: 10px;
+}
+.box3{
+    background-color: #FFE1E3;
+    width: 50vw;
+    height: 100%;
+    border-radius: 10px;
+    /* padding: 30px 0 0 30px; */
+    display: flex;
+    gap: 1vw;
+    overflow: hidden;
+    
+
+}
+.imagecard{
+    width: 8vw;
+}
+.lglogo{
+    width: 10vw;
+    margin: 20px 0 20px 20px;
+}
+.discount1{
+    background-color: rgb(255, 242, 0);
+    padding: 3px 0;
+    text-align: center;
+    width: 10vw;
+    color: #6f6f6f;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.but1{
+    padding: 5px 20px;
+    background-color: #198ADA;
+    color: white;
+    border: none;
+    margin: 20px 0;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.discribe{
+    font-size: smaller;
+    color: #6f6f6f;
+    margin-top: 20px;
+}
+.img2card{
+    width: 18vw;
+}
+.but2{
+    padding: 5px 20px;
+    background-color: #cf2828;
+    color: #ffffff;
+    border: none;
+    margin: 20px 0;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.lgmarch{
+    width: 30vw;
+}
+.shift{
+    margin-left: 30px;
+}
+.r-product{
+    display: flex;
+    gap: 1vw;
+    overflow: hidden;
+    overflow-x: scroll;
+    margin-bottom: 5vh ;
+   
+}
+.subheader{
+    font-size: 20px;
+    color: #6f6f6f;
+    display: block;
+    margin-left: 8vw;
+}
+.r-product>li{
+    background-color: #ffffff;
+    border: 1px solid;
+    padding: 30px 20px 10px 20px;
+    border-radius: 5%;
+    list-style: none;
+    margin-top: 5vh;
+    position: relative;
+}
+.r-product>li:hover{
+    box-shadow: 1px 1px 30px rgb(0, 0, 0, 0.1);
+    transform: scale(1.03);
+    border: 1px solid #da6919;
+}
+.productCard{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.productCard>img{
+    width: 8vw;
+    height: 16vh;
+    
+}
+.discount{
+    font-size: small;
+    position: absolute;
+    top: 0.4rem;
+    right:0;
+    color: #ffffff;
+    background-color: #cf2828;
+    padding: 2px;
+    border-radius: 20px 0 0 20px;
+    
+
+}
+.ItemNa{
+    color: #1A89DB;
+    font-size:larger;
+    margin-bottom: 1.5vh;
+}
+.model{
+    font-size: small;
+    color: #9d9d9d;
+    margin-bottom: 1.5vh;
+}
+.moreinfo{
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    color: #da6919;
+    margin-bottom: 2.5vh;
+
+}
+.button_div{
+    display: flex;
+    gap: 1vw;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5vh;
+
+}
+.button_div>button{
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 8px;
+}
+.buyBut{
+    background-color: #198ADA;
+    color: white;
+    border: none;
+}
+.addCartBut{
+    border: 1px solid;
+    color: #9d9d9d;
+    background-color: transparent;
+}
+footer{
+    background-color: #031828;
+    padding: 40px 20px;
+    /* margin-top: 10vh; */
+}
+.foot{
+    color: #ffffff;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.foot>div>h2{
+    margin-bottom: 20px;
+}
+.emailus{
+    text-decoration: none;
+    color: #d25005
+}
+.logofoot{
+    margin: auto 0;
+}
+/* phone page */
+.asideandcont{
+    display: flex;
+    gap: 3vw;
+    margin: 20px 40px;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 5vh;
+    z-index: 1000;
+    padding: 10vh 5vw;
+    /* bottom: 15vh; */
+}
+.divaside{
+    width: 15vw;
+   
+}
+aside>h3{
+    text-align: center;
+    color: #272727;
+}
+aside>button{
+    text-decoration: none;
+    color: #1976da;
+    background-color: #e6e6e6;
+    text-align: center;
+    margin: 10px 0;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: none;
+}
+.productCardDe{
+    display: flex;
+}
+/* .samsungListdisplay{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 40px;
+
+}
+.samsungListdisplay>li{
+    box-shadow: 1px 1px 30px rgb(0, 0, 0, 0.1) ;
+    padding: 40px;
+    list-style: none;
+} */
+.dphone{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 40px;
+}
+.dphone>li{
+    box-shadow: 1px 1px 30px rgb(0, 0, 0, 0.1) ;
+    padding: 40px;
+    list-style: none;
+}
+
+.dmage>img{
+    width: 12vw;
+    height: 18vh;
+}
+.buyButde{
+    padding: 5px;
+}
+.priceDe{
+    font-size: 40px;
+    color: #0765a8;
+}
+.brandlogo{
+    width: 3vw;
+}
