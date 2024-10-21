@@ -4,10 +4,11 @@
 }
 body{
     font-family: sans-serif;
+    
 }
 header{
-    box-shadow: 1px 1px 30px rgb(0, 0, 0, 0.1);
-    position: sticky;
+    
+    /* position: fixed; */
     
 }
 .navbar-up{
@@ -17,7 +18,18 @@ header{
     width: 80%;
     margin: 0px auto;
     padding: 20px 0;
+    /* position: fixed; */
+    /* background-color: white; */
+    
+    
 
+}
+.barup{
+    position: fixed;
+    background-color: white;
+    z-index: 1000;
+    width: 100%;
+    box-shadow: 1px 1px 30px rgb(0, 0, 0, 0.1);
 }
 .imgup{
     width: 1.5vw;
@@ -43,6 +55,12 @@ hr{
     width: 60%;
     margin: 0 auto;
     padding: 10px 0;
+    
+}
+.bardown{
+    
+    background-color: white;
+
 }
 .navbar-down>a{
     display: flex;
